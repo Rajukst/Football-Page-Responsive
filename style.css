@@ -1,0 +1,175 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.live-link{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #E02C6D;
+    background-image:linear-gradient(rgb(209, 44, 250), rgb(38, 130, 236));
+    transition-duration: 5s;
+    position: absolute;
+    top: 464px;
+    left: 156px;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+.live-link:hover{
+    padding: 10px 24px;
+    background-image:linear-gradient(rgb(40, 51, 206), rgb(10, 178, 255));
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+}
+.left-side {
+    width: 485px;
+    height: 230px;
+    position: absolute;
+    top: 107px;
+    left: 156px;
+    font-size: 64px;
+    color: white;
+
+}
+.watch-live{
+    display: flex;
+}
+.right-banner img{
+    width: 556.01px;
+    height: 438px;
+    position: absolute;
+    top: 153px;
+    left: 1299px;
+    right: 141px;
+    bottom: 86px;
+}
+/* Player Information */
+.player-details{
+    height: 560px;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.player-list{
+    display: flex;
+    align-items: center;
+}
+.player-image{
+    background-color: white;
+    width: 450px;
+    height: 580px;
+    box-shadow: lightgray 5px 5px 15px 5px;
+
+}
+.player-details .player-image img{
+    width: 420px;
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    align-items: center;
+}
+.player-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+}
+.player-title{
+    margin-left: 15px;
+}
+.players-about{
+    text-align: justify;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding-right: 10px;
+}
+/* player information completed */
+
+
+.all-highlights{
+    height: 677px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-end;
+}
+.highlight{
+    width: 485px;
+    font-size: 50px; 
+    padding-left: 60px;
+}
+.live-link2{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    background-color: #E02C6D;
+    background-image:linear-gradient(rgb(209, 44, 250), rgb(38, 130, 236));
+    transition-duration: 5s;
+    margin-left: 30px;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+.sow-banner{
+    width: 600px;
+    height: 438px;
+
+}
+/* Bonous Section 1*/
+
+.super-shot{
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.video-section{
+    margin-left: 40px;
+}
+
+/* Bonous Section-2 */
+.strike-ratting{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+/* Footer section */
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+.social-icons{
+    margin: 15px;
+    align-items: center;
+    
+}
+
+.social-icons .fab{
+    width: 45px;
+    height: 40px;
+    font-size: 45px;
+    padding: 10px;
+    border-radius: 20px; 
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+}
