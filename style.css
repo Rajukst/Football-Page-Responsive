@@ -102,8 +102,53 @@ a{
     padding: 19px;
     text-align: justify;
 }
+/* Fourth Section */
+.match-highlights{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.match-highlights div{
+    width: 50%;
+}
+.match-highlights img{
+    width: 667px;
+    height: 427px;
+}
+.left-div {
+    margin-left: 70px;
+}
+.left-div h2{
+    margin-top: 1px;
+    font-size: 64px;
+}
+.left-div a{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    background-color: #E02C6D;
+    padding: 15px 25px;
+    margin-top: 24px;
+}
 
-
+/* Bonous Section */
+.video-table{
+    margin-top: 40px;
+    margin-left: 70px; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    margin: 8px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
 footer{
     margin-top: 27px;
     text-align: center;
