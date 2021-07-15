@@ -103,10 +103,35 @@ a{
     text-align: justify;
 }
 
-.strike-ratting{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+footer{
+    margin-top: 27px;
+    text-align: center;
+    font-size: 24px;
 }
+footer .footer-logo{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fab{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    font-size: 40px;
+    background-color: rgb(52, 181, 255);
+}
+.fab.instragam{
+    background-color: red;
+}
+.fab.youtube{
+    background-color: red;
+}
+
 @media only screen and (max-width:688px){
  
     .container{
